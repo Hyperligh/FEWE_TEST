@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta name="description" content="FEWE test">
+	<meta name="author" content="Josh Chambers">
+	<meta name="viewport" content="width=device-width">
+	<meta name="keywords" content="Keywords">
+	<title>Aparttments In Bend, Or</title>
+	<link rel="stylesheet" href="feweTestStyle.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(function(){
+    			$('#images img:gt(0)').hide();
+    				setInterval(function(){
+      			$('#images :first-child').fadeOut()
+         		.next('img').fadeIn()
+         		.end().appendTo('#images');},5500);
+			});
+		$('#smallNavImg img').click(function(){
+			$('.smallNav').toggleClass('showSmallNav');
+		});
+		
+		$('.smallNav li').click(function(){
+			$('.smallNav').removeClass('showSmallNav')
+		});
+
+		});
+	</script>
+</head>
+<body>
+<div id="aside_wrapper">
+<div id="container">
+<div id="content">
+<div id="header">
+<header>
+<div id="logo">
+<img src="images/logo.png" alt="Bend OR apartments logo">
+</div>
+<div id="contactInfo">
+<h2>CALL 800.555.1212</h2>
+</div>
+<div id="smallNavImg">
+<a href="#"><img src="images/threelines.png"></a>
+
+<div class="smallNav">
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Photo Gallery</a></li>
+		<li><a href="#">Neighborhood</a></li>
+		<li><a href="#">Amenities</a></li>
+		<li><a href="#">Floor Plans</a></li>
+		<li><a href="#">Map &amp; Directions</a></li>
+		<li><a href="#">Current Residents</a></li>
+		<li><a href="#">Contact Us</a></li>
+	</ul>
+</nav>
+</div>
+</div>
+<div id="cta_nav">
+<nav>
+<ul>
+	<li><a href="#" id="cta_1">Apply</a></li>
+	<li><a href="#" id="cta_2">Schedule A Tour</a></li>
+	<li><a href="#" id="cta_3">Special Offer</a></li>
+	<li><a href="#" id="cta_4">Request Information</a></li>
+</ul>
+</nav>
+</div>
+<div id="mainNav">
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Photo Gallery</a></li>
+		<li><a href="#">Neighborhood</a></li>
+		<li><a href="#">Amenities</a></li>
+		<li><a href="#">Floor Plans</a></li>
+		<li><a href="#">Map &amp; Directions</a></li>
+		<li><a href="#">Current Residents</a></li>
+		<li><a href="#">Contact Us</a></li>
+	</ul>
+</nav>
+</div>
+
+</header>
+<div id="bottomHeader">
+</div>
+</div>
+<div id="col2_right">
+
+<div id="aside_1">
+<aside>
+<h3>APARTMENTS AT SPOONER</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit inventore veritatis et quasi architecto beatae vitaesed quia consequuntur magni dolores eos qui </p>
+</div>
+<div id="aside_2">
+<h1><p>DESIGNED</p> <p>FOR</p> <p>LIVING</p></h1>
+
+</div>
+</aside>
+
+
+<div id="images">
+<img src="images/apartments_bend_or_front_entrance_01.jpg" alt="Welcoming front entrance at the apartments in Bend OR">
+
+<img src="images/apartments_bend_or_front_entrance_02.jpg" alt="Welcoming front entrance at the apartments in Bend OR">
+
+<img src="images/apartments_bend_or_front_entrance_03.jpg" alt="Welcoming front entrance at the apartments in Bend OR">
+</div>
+<div id="main_content">
+<h2>Welcome to The Apartments at Spooner Street</h2>
+<p>
+	One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. 
+</p>
+<p>
+	"What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops
+</p>
+</div>
+</div>
+<div id="col1_left">
+
+<img src="images/apartments_in_bend_or.png" height="340" width="230" id="col1_picture" alt="Cartoon neighborhood">
+<header>
+	<h3>Apartments at Spooner</h3>
+</header>
+<div id="col1_wrapper">
+<div id="contact_info">
+<p id="col1_header"><strong>Address</strong></p>
+<p id="address">2 Harms Way<br>Bend, OR 97701</p>
+<p id="contact_numbers">Tel: 123.456.7890<br>
+Fax: 123.456.7890</p>
+<p id="email"><a href="#">Email Us</a></p>
+</div>
+</div>
+<div id="col1_split">
+</div>
+<div id="col1_wrapper2">
+<div id="hours">
+<p id="col1_header"><strong>Office Hours</strong></p>
+<p id="hour">Mon-Fri 9:00 am-6:00 pm</p>
+<p id="hour">Sat 9:00 am-5:00 pm</p>
+<p id="hour">Sun 11:00 am-4:00 pm</p>
+
+</div>
+</div>
+</div>
+
+
+
+
+<footer>
+<p>&copy; 2012 G5, All rights reserved<br>
+Terms of Service | Privacy | Security</p>
+</footer>
+
+</div>
+</div>
+<div id="btm_space">
+</div>
+</div>
+</body>
+</html>

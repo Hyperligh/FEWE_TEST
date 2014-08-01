@@ -1,0 +1,570 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	background-image: url(images/background.jpg);
+	
+
+}
+#container{
+	width:1024px;
+	margin:0 auto;
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.2);
+	border-left:20px solid;
+	border-right:20px solid;
+	border-bottom:20px solid;
+	border-color: transparent;
+
+	
+	
+}
+
+/*--------All of the header rules--------- */
+
+#header header{
+	min-height:163px;
+}
+#contactInfo{
+	float:right;
+	top:55px;
+	margin-top:20px;
+	margin-right:15px;
+	color: #3d3d3d;
+}
+header #logo {
+	float:left;
+	padding-left:25px;
+	padding-top: 15px;
+	height:105px; 
+	width:246px;
+}
+/*----------All of the cta nav menu rules--------*/
+header #cta_nav nav ul {
+	float:right;
+	margin-top:30px;
+	margin-bottom: 25px;
+	font-size:90%;
+	clear:right;
+}
+
+header #cta_nav nav ul li{
+	background: linear-gradient(#aeaeae,#5d5d5d);
+	min-height:28px;
+	line-height:28px;
+	clear:right;
+	border-radius:3px;
+	margin-right: 12px;
+	display: inline-block;
+
+
+}
+#cta_1, #cta_2, #cta_3, #cta_4 {
+	padding-left:8px;
+	padding-right: 8px;
+
+}
+
+header #cta_nav nav ul li a:hover{
+	background: linear-gradient(#836000,#705200);
+	border-radius: 3px;
+	
+
+}
+
+/*-----------All of the Main nav Rules--------*/
+header #mainNav nav ul{
+	margin-top:5px;
+	float:right;	
+}
+
+header #mainNav ul{
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.7);
+}
+header #mainNav ul li {
+	width:128px;
+	min-height:32px;
+	background-image: url(images/mainNav_off_03_03.png);
+	line-height: 32px;
+
+	
+}
+header #mainNav ul li a{
+	min-height:32px;
+
+}
+header #mainNav nav ul li a:hover {
+	background-image: url(images/mainNav_on_03.png);
+	
+}
+/*----------Shared rules between nav menus-----------*/
+header #cta_nav nav ul li,header #mainNav ul li {
+	float:left;
+	list-style-type: none;
+	text-align: center;
+	
+}
+header #cta_nav nav ul li a, header #mainNav ul li a{
+	text-decoration: none;
+	display:block;
+	color:white;
+}
+#smallNavImg, .smallNav {
+	display:none;
+	
+}
+
+/* Left col1 rules*/
+#col1_left {
+	float:left;
+	width:230px;
+	background-color: #a7a28f;
+
+
+}	
+#col1_left header {
+	background-color: #333029;
+	color:#bf911f;
+	text-align: center;
+	min-height: 35px;
+	line-height: 35px;
+}
+#col1_split {
+	width: 210px;
+	margin-left:10px;
+	margin-right: 10px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	margin:0 auto;
+}
+#col1_header{
+	color:#3e3b33;
+	margin-top:13px;
+	margin-bottom:10px;
+
+}
+#address, #contact_numbers, #hour {
+	color:white;
+}
+#hours{
+	min-height:175px;
+	line-height: 22px;
+}
+#email{
+	margin-bottom:25px;
+	margin-top:15px;
+}
+#email a{
+	color:black;
+	text-decoration: none;
+}
+#contact_numbers{
+	font-size: 90%;
+	margin-top:13px;
+	margin-bottom:13px;
+}
+#contact_info, #hours {
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+/*Changes background color of the site except for header*/
+#content{
+	background-color: white;
+}
+
+/*All of the col2_right rules-Main content*/
+#col2_right {
+	float:right;
+	width:790px;
+	height: 100%;
+}
+#col2_right h2 {
+	color: #8b6300;
+	margin-top: 15px;
+}
+
+#col2_right #main_content p {
+	font-family: "Helvetica";
+	margin-top:15px;
+}
+#images {
+	position: relative;
+	width: 793px;
+	height:340px;
+	right:3px;
+}
+#images img {
+	width:793px;
+	height:340px;
+	float:right;
+	margin-bottom: 30px;
+	position:absolute;
+
+}
+
+/*Allows the aside to go outside the main container but still able to scale with the site*/
+#aside_wrapper {
+	width:1100px;
+	margin:0 auto;
+	position: relative;
+}
+/*relative to aside wrapper, overlays the main picture*/
+#aside_1 {
+	background-color: rgba(0,0,0,0.7);
+	width:350px;
+	left:519px;
+	top:265px;
+	position: absolute;
+	z-index: 100;
+	color:white;
+	padding:10px;
+	
+	font-family: "papyrus";
+	line-height: 23px;
+	
+
+
+}
+#aside_1 p {
+	font-size: 105%;
+}
+#aside_1 h3 {
+	margin-bottom: 5px;
+	width:80%;
+}
+#aside_2 {
+	width:170px;
+	position:absolute;
+	z-index: 100;
+	background-image: url(images/aside_2_background_03.png);
+	color:white;
+	top:265px;
+	left:889px;
+	text-align: right;
+	padding:19px;
+	font-family: "Centaur";
+	height:119px;
+
+}
+
+/*Main copy of the page*/
+#main_content {
+	margin: 30px;
+	line-height: 25px;
+}
+
+
+/* All of footers rules*/
+footer  {
+	clear: both;
+	width:100%;
+	background-color: #a69c75;
+	min-height:48px;
+	margin: 0 auto;
+}
+footer p {
+	padding-top: 10px;
+	font-size: 90%;
+}
+/*Space between footer and container*/
+#btm_space {
+	width:100%;
+	height:25px;
+}
+
+
+@media screen and (max-width:1110px) and (min-width: 200px) {
+	#header header{
+		background-color: white;
+		
+		
+	}
+	#aside_wrapper {
+		width:99%;
+	}
+	#container {
+		width:99%;
+		border:0;
+	}
+	header #mainNav {
+		display:none;
+	}
+	#smallNavImg {
+		margin-right: 15px;
+		display:block;
+		float:right;
+		clear:right;
+		margin-top:15px;
+	}
+	#smallNavImg img {
+		width:45px;
+		height:35px;
+
+	}
+	#col2_right{
+		width:75%;
+	}
+	#aside_1{
+		display:none;
+	}
+	#aside_2 {
+		display:none;
+	}
+	#btm_space{
+		height:5px;
+	}
+	#images {
+		right: 3%;
+	}
+	#bottomHeader {
+		border-bottom: 2px solid rgba(36,36,36,0.5);
+		width:88%;
+		margin:0 auto;
+		margin-bottom:8px;
+	}
+	.smallNav {
+		width:230px;
+		background-color: rgba(0,0,0,0.85);
+		float:right;
+		z-index: 1000;
+		position: absolute;
+		right:25px;
+		text-align: center;
+	}
+	.showSmallNav {
+		display:block;
+	}
+	.smallNav ul li {
+
+		list-style-type: none;
+		text-align: center;
+		width:115px;
+		float:left;
+		min-height:30px;
+		
+		
+	}
+	.smallNav ul li a {
+		color: white;
+		text-decoration: none;
+		display: block;
+		min-height:30px;
+	}
+	.smallNav ul li a:hover {
+		background-color: rgba(84,84,84,0.4);
+	}
+	
+}
+@media screen and (max-width:1062px) and (min-width: 200px) {
+	#header header{
+		background-color: white;
+		overflow: hidden;
+	}
+	#aside_wrapper {
+		width:100%;
+
+	}
+	#container {
+		width:100%;
+		border:0;
+	}
+	header #mainNav {
+		display:none;
+	}
+	#col2_right {
+		width:100%;
+	}
+
+	#aside_1 {
+		display:none;
+	}
+	#aside_2 {
+		display:none;
+	}
+	#col1_left {
+		float:left;
+		width:230px;
+		background-color: #a7a28f;
+
+	}	
+	#col2_right {
+		float:none;
+		clear:both;
+	}
+	
+	#col1_picture{
+		display:none;
+	}
+	/* Left col1 rules*/
+	#col1_left {
+		float:none;
+		width:100%;
+		overflow: hidden;
+	}	
+	#col1_split {
+		display:none;
+	}
+	#hours{
+		min-height:0px;
+		line-height: 22px;
+		float:right;
+		margin-right: 22%;
+	}
+	#email{
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	#contact_numbers{
+		
+		margin-top:0px;
+		margin-bottom:0;
+	}
+	#contact_info{
+		float:left;
+		margin-left: 24%;
+	}
+	#col1_wrapper{
+		width:99%;
+		margin:0 auto;
+	}
+	#images img {
+		width:100%;
+		float: none;
+		height:18em;
+	}
+	#images {
+		width:80%;
+		margin:0 auto;
+		height:18em;
+	}
+}
+
+@media screen and (max-width:850px) and (min-width:200px) {
+	#images {
+		width: 75%;
+		height:15em;	
+	}
+	#images img {
+		width:100%;
+		height:15em;
+		margin-left: 10px;
+		margin-right:10px;
+		margin-bottom: 30px;	
+	}
+
+}
+@media screen and (max-width:730px) and (min-width:200px) {
+	/*----------All of the cta nav menu rules--------*/
+	header #cta_nav nav ul {
+		float:left;
+		margin-top:10px;
+		margin-bottom: 25px;
+		font-size:90%;
+		clear:right;
+
+	}
+	#contactInfo {
+		clear:left;
+		margin-top:-115px;
+		margin-left:31%;
+	}
+	#contact_info {
+		
+		margin-left:10%;
+	}
+	#hours{
+		margin-right:10%;
+	}
+
+	header #logo {
+		
+	}
+	#images {
+		height:13em;
+	}
+	#images img {
+		height:13em;
+	}
+	#smallNavImg {
+		margin-top:-58px;
+	}
+	.smallNav {
+		margin-top:10px;
+		width:100%;
+		right:0;
+	}
+	.smallNav ul li {
+		width:50%;
+		font-size: 110%;
+	}
+	
+}
+@media screen and (max-width:459px) and (min-width: 200px) {
+	header #cta_nav nav ul li {
+		width:170px;
+		padding:0;
+	}
+	header #cta_nav nav ul {
+		margin-left: 8px;
+	}
+	#contactInfo {
+		float:none;
+		margin-top: 0px;
+	}
+	header #logo {
+		padding-left: 2px;
+		padding-top: 2px;
+		margin-left: 1%;
+	}
+	#images{
+		height:11em;
+	}
+	#images img {
+		height:11em;
+	}
+	#smallNavImg {
+		margin-top:-72px;
+	}
+
+
+}	
+@media screen and (max-width:388px) and (min-width: 200px) {
+	#contact_info {
+		font-size: 85%;
+		margin-left:0;
+	}
+	#hours{
+		margin-right:0;
+		font-size: 85%;
+	}
+	#images {
+		height:10em;	
+	}
+	#images img {
+		height: 10em;	
+	}
+	header #cta_nav nav ul {
+		margin-left: 22%;
+	}
+	header #logo {
+		margin:0;
+		height:85px; 
+		width:206px;
+	}
+	#smallNavImg {
+		padding-top:50px;
+		margin-right:5px;
+	}
+	#contactInfo {
+		padding-top:20px;
+		width:100%;
+		float:left;
+	}
+	#contactInfo{
+		float:left;
+		top:85px;
+		margin-left:0;
+	}
+}
